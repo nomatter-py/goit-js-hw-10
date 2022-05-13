@@ -10,7 +10,6 @@ const refs = {
 };
 
 
-
 const onSearchInput = evt => {
     let name = refs.searchBox.value.trim();
     refreshListMarkup();
